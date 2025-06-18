@@ -1,0 +1,37 @@
+{
+  "bitcoin": {
+    "price_trend": "rising",
+    "sustainability_score": 0.7,
+    "market_cap": "1.3T",
+    "energy_use": "high",
+    "risk_level": "medium"
+  },
+  "ethereum": {
+    "price_trend": "rising",
+    "sustainability_score": 0.6,
+    "market_cap": "400B",
+    "energy_use": "medium",
+    "risk_level": "medium"
+  },
+  "cardano": {
+    "price_trend": "stable",
+    "sustainability_score": 0.9,
+    "market_cap": "15B",
+    "energy_use": "low",
+    "risk_level": "low"
+  },
+  "solana": {
+    "price_trend": "rising",
+    "sustainability_score": 0.8,
+    "market_cap": "60B",
+    "energy_use": "low",
+    "risk_level": "medium"
+  },
+  "ripple": {
+    "price_trend": "stable",
+    "sustainability_score": 0.5,
+    "market_cap": "25B",
+    "energy_use": "high",
+    "risk_level": "high"
+  }
+}

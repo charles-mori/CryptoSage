@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CryptoSage</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/js/app.js" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>🤖 CryptoSage</h1>
+            <p>Smart cryptocurrency investment recommendations</p>
+        </header>
+        
+        <div class="chat-container">
+            <div class="side-nav">
+                <div class="side-item active" data-view="chat">
+                    💬 Chat Advisor
+                </div>
+                <div class="side-item" data-view="trends">
+                    📊 Market Trends
+                </div>
+                <div class="side-item" data-view="sustainability">
+                    🌱 Sustainable Picks
+                </div>
+                <div class="side-item" data-view="risk">
+                    ⚠️ Risk Analysis
+                </div>
+            </div>
+
+            <div class="main-content">
+                
+                <div class="chat-area" id="chatView">
+                    <div class="messages" id="messageContainer">
+                        <div class="message bot-message">
+                            Hello! I'm CryptoSage. I can help you with trends, sustainability, or risk. What would you like to know?
+                        </div>
+                    </div>
+
+                    <div class="input-area">
+                        <input id="userInput" placeholder="Ask me about cryptocurrencies...">
+                        <button id="sendBtn">Send</button>
+                    </div>
+                </div>
+
+                <div class="data-view" id="trendsView" style="display: none">
+                    <h2>Market Trends</h2>
+                    <canvas id="trendsChart"></canvas>
+                </div>
+
+                <div class="data-view" id="sustainabilityView" style="display: none">
+                    <h2>Sustainable Picks</h2>
+                    <div id="sustainabilityCards"></div>
+                </div>
+
+                <div class="data-view" id="riskView" style="display: none">
+                    <h2>Risk Analysis</h2>
+                    <div id="riskMatrix"><canvas id="riskChart"></canvas></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
